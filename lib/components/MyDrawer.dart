@@ -91,7 +91,7 @@ class MyDrawer extends StatelessWidget {
                       // color: Color(0xff49E9E9),
                       ),
                 ),
-                onTap: () => onTap(context, '/orders'),
+                onTap: () => onTap(context, '/myOrders'),
               ),
             ),
             Expanded(

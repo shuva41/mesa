@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/painting.dart';
 import 'package:mesa/screens/AllCategories.dart';
 import 'package:mesa/screens/HomePage.dart';
+import 'package:mesa/screens/MyOrders.dart';
 import 'package:mesa/screens/Respiratory_Care.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         '/categories': (context) => AllCategoriesPage(),
         '/respiratorycare': (context) => RespiratoryCarePage(),
+        '/myOrders': (context) => MyOrdersPage(),
       },
     );
   }
